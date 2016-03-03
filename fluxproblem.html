@@ -1,0 +1,16 @@
+<head>
+  <title>fluxproblem</title>
+</head>
+
+<body>
+<button dispatch="POST1">Find post 1</button>
+<button dispatch="POST2">Find post 2</button>
+<button dispatch="POST3">Find post 3</button>
+<p>
+{{#if chosenPost}}
+Found post number: {{chosenPost.number}} titled: {{chosenPost.title}}.
+{{else}}
+No post found!
+{{/if}}
+</p>
+</body>
